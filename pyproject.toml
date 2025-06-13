@@ -19,6 +19,9 @@ openpyxl = "^3.1.5"
 langchain-text-splitters = "^0.3.8"
 colorlog = "^6.9.0"
 
+[tool.poetry]
+package-mode = "false"
+
 
 [build-system]
 requires = ["poetry-core"]
