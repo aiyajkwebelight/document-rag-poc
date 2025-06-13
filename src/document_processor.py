@@ -21,7 +21,7 @@ QDRANT_COLLECTION = "document_embeddings"
 QDRANT_VECTOR_SIZE = 768  # Should match your embedding size
 
 # qdrant_client = QdrantClient(path=QDRANT_PATH, prefer_grpc=False)
-qdrant_client = QdrantClient(host="localhost", port=6333)
+qdrant_client = QdrantClient(host="109.169.37.51", port=6333)
 try:
     qdrant_client.create_collection(
         collection_name=QDRANT_COLLECTION,
