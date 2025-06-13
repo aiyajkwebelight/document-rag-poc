@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "document-rag-poc"
+version = "0.1.0"
+description = ""
+authors = ["Nikhil Maheshwari <nikhilm@webelight.co.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+streamlit = "^1.45.1"
+pillow = "^11.2.1"
+pytesseract = "^0.3.13"
+pypdf2 = "^3.0.1"
+pymupdf = "^1.26.1"
+litellm = "^1.72.4"
+python-dotenv = "^1.1.0"
+qdrant-client = "^1.14.2"
+openpyxl = "^3.1.5"
+langchain-text-splitters = "^0.3.8"
+colorlog = "^6.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
